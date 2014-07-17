@@ -1,4 +1,4 @@
-# ea-watchdog
+# E/A Watchdog
 
 A simple Cocoa-flavoured AppleScript implementation of a watchdog for
 resetting the browser to a single website when the screensaver stops.
@@ -11,3 +11,5 @@ To make this work with Firefox there are certain prerequisites:
 
 It is only this configuration which allows an outside script to close all
 browser windows without nagging.
+
+If you are curious, the magic happens in [AppDelegate.applescript](EA%20Watchdog/AppDelegate.applescript).
