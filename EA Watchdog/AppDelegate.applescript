@@ -20,8 +20,8 @@ script AppDelegate
 	end applicationShouldTerminate_
 	
 	on screensaverStop:aNotification
-		tell application "Safari"
-			close every window
+		tell application "Firefox"
+			close every window saving no
 			open location "https://www.facebook.com/MuthesiusKunsthochschule"
 			activate
 		end tell
