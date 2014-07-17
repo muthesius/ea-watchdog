@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21EBAB401977D7F60013B43E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EBAB3F1977D7F60013B43E /* Cocoa.framework */; };
+		21EBAB421977D7F60013B43E /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EBAB411977D7F60013B43E /* AppleScriptObjC.framework */; };
+		21EBAB4C1977D7F60013B43E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21EBAB4A1977D7F60013B43E /* InfoPlist.strings */; };
+		21EBAB4E1977D7F60013B43E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EBAB4D1977D7F60013B43E /* main.m */; };
+		21EBAB521977D7F60013B43E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 21EBAB501977D7F60013B43E /* Credits.rtf */; };
+		21EBAB541977D7F60013B43E /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 21EBAB531977D7F60013B43E /* AppDelegate.applescript */; };
+		21EBAB571977D7F60013B43E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21EBAB551977D7F60013B43E /* MainMenu.xib */; };
+		21EBAB591977D7F60013B43E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EBAB581977D7F60013B43E /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21EBAB3C1977D7F60013B43E /* EA Watchdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EA Watchdog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EBAB3F1977D7F60013B43E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		21EBAB411977D7F60013B43E /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		21EBAB441977D7F60013B43E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		21EBAB451977D7F60013B43E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		21EBAB461977D7F60013B43E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21EBAB491977D7F60013B43E /* EA Watchdog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EA Watchdog-Info.plist"; sourceTree = "<group>"; };
+		21EBAB4B1977D7F60013B43E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21EBAB4D1977D7F60013B43E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21EBAB4F1977D7F60013B43E /* EA Watchdog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EA Watchdog-Prefix.pch"; sourceTree = "<group>"; };
+		21EBAB511977D7F60013B43E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		21EBAB531977D7F60013B43E /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		21EBAB561977D7F60013B43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		21EBAB581977D7F60013B43E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21EBAB391977D7F60013B43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EBAB421977D7F60013B43E /* AppleScriptObjC.framework in Frameworks */,
+				21EBAB401977D7F60013B43E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21EBAB331977D7F60013B43E = {
+			isa = PBXGroup;
+			children = (
+				21EBAB471977D7F60013B43E /* EA Watchdog */,
+				21EBAB3E1977D7F60013B43E /* Frameworks */,
+				21EBAB3D1977D7F60013B43E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21EBAB3D1977D7F60013B43E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21EBAB3C1977D7F60013B43E /* EA Watchdog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21EBAB3E1977D7F60013B43E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21EBAB3F1977D7F60013B43E /* Cocoa.framework */,
+				21EBAB411977D7F60013B43E /* AppleScriptObjC.framework */,
+				21EBAB431977D7F60013B43E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21EBAB431977D7F60013B43E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21EBAB441977D7F60013B43E /* AppKit.framework */,
+				21EBAB451977D7F60013B43E /* CoreData.framework */,
+				21EBAB461977D7F60013B43E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		21EBAB471977D7F60013B43E /* EA Watchdog */ = {
+			isa = PBXGroup;
+			children = (
+				21EBAB531977D7F60013B43E /* AppDelegate.applescript */,
+				21EBAB551977D7F60013B43E /* MainMenu.xib */,
+				21EBAB581977D7F60013B43E /* Images.xcassets */,
+				21EBAB481977D7F60013B43E /* Supporting Files */,
+			);
+			path = "EA Watchdog";
+			sourceTree = "<group>";
+		};
+		21EBAB481977D7F60013B43E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21EBAB491977D7F60013B43E /* EA Watchdog-Info.plist */,
+				21EBAB4A1977D7F60013B43E /* InfoPlist.strings */,
+				21EBAB4D1977D7F60013B43E /* main.m */,
+				21EBAB4F1977D7F60013B43E /* EA Watchdog-Prefix.pch */,
+				21EBAB501977D7F60013B43E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21EBAB3B1977D7F60013B43E /* EA Watchdog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EBAB5C1977D7F60013B43E /* Build configuration list for PBXNativeTarget "EA Watchdog" */;
+			buildPhases = (
+				21EBAB381977D7F60013B43E /* Sources */,
+				21EBAB391977D7F60013B43E /* Frameworks */,
+				21EBAB3A1977D7F60013B43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EA Watchdog";
+			productName = "EA Watchdog";
+			productReference = 21EBAB3C1977D7F60013B43E /* EA Watchdog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21EBAB341977D7F60013B43E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 21EBAB371977D7F60013B43E /* Build configuration list for PBXProject "EA Watchdog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21EBAB331977D7F60013B43E;
+			productRefGroup = 21EBAB3D1977D7F60013B43E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21EBAB3B1977D7F60013B43E /* EA Watchdog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21EBAB3A1977D7F60013B43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EBAB4C1977D7F60013B43E /* InfoPlist.strings in Resources */,
+				21EBAB591977D7F60013B43E /* Images.xcassets in Resources */,
+				21EBAB521977D7F60013B43E /* Credits.rtf in Resources */,
+				21EBAB571977D7F60013B43E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21EBAB381977D7F60013B43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EBAB541977D7F60013B43E /* AppDelegate.applescript in Sources */,
+				21EBAB4E1977D7F60013B43E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21EBAB4A1977D7F60013B43E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21EBAB4B1977D7F60013B43E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21EBAB501977D7F60013B43E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21EBAB511977D7F60013B43E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		21EBAB551977D7F60013B43E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21EBAB561977D7F60013B43E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21EBAB5A1977D7F60013B43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		21EBAB5B1977D7F60013B43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21EBAB5D1977D7F60013B43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EA Watchdog/EA Watchdog-Prefix.pch";
+				INFOPLIST_FILE = "EA Watchdog/EA Watchdog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21EBAB5E1977D7F60013B43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EA Watchdog/EA Watchdog-Prefix.pch";
+				INFOPLIST_FILE = "EA Watchdog/EA Watchdog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21EBAB371977D7F60013B43E /* Build configuration list for PBXProject "EA Watchdog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EBAB5A1977D7F60013B43E /* Debug */,
+				21EBAB5B1977D7F60013B43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21EBAB5C1977D7F60013B43E /* Build configuration list for PBXNativeTarget "EA Watchdog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EBAB5D1977D7F60013B43E /* Debug */,
+				21EBAB5E1977D7F60013B43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21EBAB341977D7F60013B43E /* Project object */;
+}
